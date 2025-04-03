@@ -1,0 +1,22 @@
+.comment-form {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

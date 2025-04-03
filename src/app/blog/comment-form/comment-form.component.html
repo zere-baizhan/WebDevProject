@@ -1,1 +1,10 @@
-<p>comment-form works!</p>
+<form (ngSubmit)="onSubmit()" class="comment-form">
+    <input
+      [(ngModel)]="content"
+      name="comment"
+      placeholder="Write a comment..."
+      required
+    />
+    <button type="submit">Post</button>
+  </form>
+  

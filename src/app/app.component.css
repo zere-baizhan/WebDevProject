@@ -1,0 +1,118 @@
+
+.layout {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .nav-buttons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .nav-btn {
+    width: 44px;
+    height: 44px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .nav-btn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+  }
+  
+  .nav-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+
+  .sidebar {
+    width: 80px;
+    background-color: white;
+    border-right: 1px solid #eee;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar .logo img {
+    width: 36px;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar nav li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar nav a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #333;
+    transition: 0.2s ease;
+  }
+  
+  .sidebar nav a:hover {
+    color: #999;
+  }
+  
+
+
+
+  .feed {
+    flex-grow: 1;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+  
+
+
+  .right-panel {
+    width: 300px;
+    background-color: #fff;
+    border-left: 1px solid #eee;
+    padding: 2rem;
+  }
+  
+  .login-box {
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .login-box button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .login-box a {
+    display: block;
+    margin-top: 0.5rem;
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  
